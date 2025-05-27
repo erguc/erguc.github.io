@@ -19,3 +19,8 @@ rrss:
   email: "example@example.cl"
   telegram: "https://t.me/"
   discord: "https://discord.com/"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
