@@ -88,14 +88,16 @@ max_width: false
 </section>
 
 <script>
-	$(document).ready(function () {
-	  $(function () {
-			var today = new Date();
-			$( ".week" ).each(function( index ) {
-			  if (today < Date.parse($( this ).attr('data-date'))) {
-			  	$( this ).addClass('future-date');
-			  }
-			});
-	  })
-	});
+  document.addEventListener('DOMContentLoaded', function () {
+    const today = new Date();
+
+    document.querySelectorAll('.week').forEach(function (element) {
+      const dateAttr = element.getAttribute('data-date');
+      const elementDate = new Date(dateAttr);
+
+      if (today < elementDate) {
+        element.classList.add('future-date');
+      }
+    });
+  });
 </script>
