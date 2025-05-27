@@ -2,7 +2,7 @@
 title 			: Life in Weeks
 layout			: life-in-weeks
 datafile		:	life-in-weeks
-start_date	: 1976-05-28
+start_date	: 1979-01-26
 end_year		: 2076
 ---
 
