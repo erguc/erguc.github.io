@@ -15,7 +15,14 @@ max_width: false
 {% assign end_year = page.end_year %}
 {% assign year_border_class = "border-secondary" %}
 
-<style>
+
+
+
+<section class="life-in-weeks">
+	<div class="row justify-content-center">
+		<div class="col-12">
+		{% include head.html %}
+ <style>
 
 	.life-in-weeks {
 	h2 {
@@ -38,13 +45,6 @@ max_width: false
 	}
 }
 </style>
-
-
-<section class="life-in-weeks">
-	<div class="row justify-content-center">
-		<div class="col-12">
-		{% include head.html %}
- 
 		{{content}}
 		</div>
 	</div>
