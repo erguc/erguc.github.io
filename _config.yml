@@ -1,6 +1,7 @@
 domain: example.com
-url: https://example.com
+url: https://birkan.xyz
 baseurl: ""
+permalink: pretty
 
 title: Wind
 email: wind@example.com
